@@ -2,7 +2,6 @@
   "name": "unidorm-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -31,7 +30,8 @@
     "react-share": "^5.1.0",
     "react-simple-star-rating": "^5.1.7",
     "react-toastify": "^10.0.5",
-    "redux": "^5.0.1",
+    "redux": "^3.0.1",
+    "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^3.1.0",
     "sass": "^1.75.0",
     "web-vitals": "^2.1.4",
