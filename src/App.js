@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Uitily/Header";
 import HomePage from "./Pages/Home/HomePage";
 import Footer from "./Components/Uitily/Footer";
@@ -24,7 +24,7 @@ import VertifyEmailPage from "./Pages/Auth/VerifyEmailPage";
 import ScrollToTop from "./Components/Uitily/ScrollToTop";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <ToastContainer />
       <Routes>
@@ -55,7 +55,7 @@ function App() {
         {/* End Admin Pages */}
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
