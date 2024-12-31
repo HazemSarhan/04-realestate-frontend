@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
 const baseUrl = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: 'https://zero4-realestate-api.onrender.com',
 });
 
 export default baseUrl;
