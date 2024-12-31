@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const baseUrl = axios.create({
-  baseURL: 'https://zero4-realestate-backend.onrender.com/api/v1/',
+  baseURL: 'https://zero4-realestate-backend.onrender.com/',
   withCredentials: true,
 });
 
